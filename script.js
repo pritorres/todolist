@@ -21,6 +21,7 @@ function addTask() {
     </div>
   `;
 
+    console.log("se creo nueva task", taskText)
     taskList.appendChild(li);
     saveTasks();
     taskInput.value = '';
